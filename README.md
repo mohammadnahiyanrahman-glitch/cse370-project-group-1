@@ -6,4 +6,4 @@ Features
  Promise Completion Rate 
  Politician Rating System
  Average Politician Rating 
-Rating vs Promise Completion
+ Rating vs Promise Completion (if rating is way too good compared to promise completion, it means way too much tel) (if rating is way too bad compared to promise completion, it means unrecognized)
