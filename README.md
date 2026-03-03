@@ -1,6 +1,6 @@
 Political Promise Tracker with Public Rating System
-Features
- Add Politician
+\nFeatures
+\nAdd Politician
  Add Promise
  Update Promise Status
  Promise Completion Rate 
