@@ -10,5 +10,5 @@ Political Promise Tracker with Public Rating System
 
  er/eer model: https://drive.google.com/file/d/11Mi8WW08gwqnpfvwSNJS1jSJn51zggyI/view?usp=drive_link
 
- updated schema: https://drive.google.com/file/d/1x95h-xTxKpHP8qCroVWDUd0XyvQCderM/view?usp=sharing
+ updated schema: https://drive.google.com/file/d/1FtzOZ08R-z3DahD9xg0fhp1fjQR48ax3/view?usp=sharing
 
