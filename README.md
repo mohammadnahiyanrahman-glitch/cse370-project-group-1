@@ -12,3 +12,4 @@ Political Promise Tracker with Public Rating System
 
  updated schema: https://drive.google.com/file/d/1FtzOZ08R-z3DahD9xg0fhp1fjQR48ax3/view?usp=sharing
 
+lab report: https://docs.google.com/document/d/1D4QgaVKpgnT1eRJBBBBAjnI_jq5V99bw2VI9FrQWT3k/edit?tab=t.0
