@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $promise_id = $_POST['promise_id'];
         $desc = trim($_POST['completion_description']);
         
-        //proof handle
+        // Handle Proof
         $proof_link = trim($_POST['proof_link'] ?? '');
         $proof_file = $_FILES['proof_file'] ?? null;
         if (empty($proof_link) && empty($proof_file['name'])) {
@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         
         $proof_id = handle_proof_upload($proof_file, $proof_link, $pdo, $_SESSION['user_id']);
         
-        //completion poost
+        // Insert Completion Post
         $stmt = $pdo->prepare("INSERT INTO completion_posts (user_id, promise_id, completion_description, proof_id, status) VALUES (?, ?, ?, ?, 'pending')");
         $stmt->execute([$_SESSION['user_id'], $promise_id, $desc, $proof_id]);
         
